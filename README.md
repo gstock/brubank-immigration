@@ -49,4 +49,10 @@ El orden del código fuente esta dado por el Nro. de vuelo de cada viajero.
 Para detectar a un espía, tendrás que tener en cuenta las siguientes características:
 
 
+## Links útiles
+
+- [Browser Websocket Client](https://chrome.google.com/webstore/detail/browser-websocket-client/mdmlhchldhfnfnkfmljgeinlffmdgkjo): extensión de Chrome para conectarte a un websocket
+- [Introducción a websocket](https://www.oscarblancarteblog.com/2017/02/20/introduccion-a-lo-websocket/)
+
+
 Mucha suerte!!
