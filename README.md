@@ -37,7 +37,7 @@ Tu misión es detectar a los espías y conseguir el código fuente del virus. Un
 
 El servicio de inmigración de Ruritaria funciona con un websocket ubicado en: 
 
-[ws://ruritania-immigration.herokuapp.com/immigration]
+[ws://ruritania-immigration.herokuapp.com/immigration](ws://ruritania-immigration.herokuapp.com/immigration)
 
 Una vez conectado al websocket podrás recibir los datos de cada viajero y detectar a los espías. Cuando descubrás a todos los espías y sus equipajes podrás correr el código fuente.
 
