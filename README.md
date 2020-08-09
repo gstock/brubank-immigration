@@ -35,7 +35,7 @@ Tu misión es detectar a los espías y conseguir el código fuente del virus. Un
 
 ### El servicio web
 
-El servicio de inmigración de Ruritaria funciona con un websocket ubicado en: 
+El servicio de inmigración de Ruritaria funciona con un [websocket](https://www.oscarblancarteblog.com/2017/02/20/introduccion-a-lo-websocket/) ubicado en: 
 
 [ws://ruritania-immigration.herokuapp.com/immigration](ws://ruritania-immigration.herokuapp.com/immigration)
 
