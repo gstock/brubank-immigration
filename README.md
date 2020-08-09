@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
+# Oportunidades en Brubank
 
-You can use the [editor on GitHub](https://github.com/gstock/brubank-immigration/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+En Brubank estamos buscando desarrolladores Junior con ganas de aprender nuevas tecnologías y enfrentarse a nuevos desafíos. Nuestro Backend esta desarrollado en Go, pero no es un requisito que conozcas el lenguaje. Lo que nos importa es que seas curios@, te guste aprender y puedas resolver problemas sol@ y con nuestra ayuda.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Es por eso que creamos este ejercicio, que no debería tomarte más que un par de horas, pero seguramente te ayudara a aprender algunas tecnologías que te serviran ahora y en un futuro.
 
-### Markdown
+## El problema: los espías
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+La agencia de inmigración de Ruritania utiliza un servicio web para transmitir los datos de todos los viajeros que ingresan al país. En el mismo se informan en formato texto los siguientes datos:
 
-```markdown
-Syntax highlighted code block
+1. Nro. de pasaporte (8 dígitos)
+2. Código de país (3 dígitos)
+3. Apellido (20 caracteres)
+4. Nombre (20 caracteres)
+5. Nro de Vuelo (2 dígitos)
+6. Equipaje (30 caracteres)
 
-# Header 1
-## Header 2
-### Header 3
+Ej:
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+05012657001Warren              Louis               02eum unde exercitationem rem po
+49879255001Griffin             Patrick             00excepturi nam mollitia eos mol
+37133477002Morris              Sharon              00package main
+06293532024Fernandez           Alan                04rerum qui saepe fuga accusamus
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Tu misión
 
-### Jekyll Themes
+El gobierno de Ruritania fue alertado por la agencia de inteligencia que un grupo de espías estan intentando ingresar el código fuente de un virus a travéz de su equipaje.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gstock/brubank-immigration/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Tu misión es detectar a los espías y conseguir el código fuente del virus. Una vez obtenido el código completo deberás ejecutarlo para obtener más instrucciones de como avanzar en el proceso de entrevistas.
 
-### Support or Contact
+### El servicio web
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+El servicio de inmigración de Ruritaria funciona con un websocket ubicado en: ws://ruritania-immigration.herokuapp.com/immigration 
+Una vez conectado al websocket podrás recibir los datos de cada viajero y detectar a los espías. Cuando descubrás a todos los espías y sus equipajes podrás correr el código fuente.
+
+El orden del código fuente esta dado por el Nro. de vuelo de cada viajero.
+
+### Los espías
+
+Para detectar a un espía, tendrás que tener en cuenta las siguientes características:
+
+
+Mucha suerte!!
