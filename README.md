@@ -14,7 +14,7 @@ La agencia de inmigración de Ruritania utiliza un servicio web para transmitir 
 3. Apellido (20 caracteres)
 4. Nombre (20 caracteres)
 5. Nro de vuelo (2 dígitos)
-6. Equipaje (30 caracteres)
+6. Equipaje (800 caracteres)
 
 Ej:
 
@@ -47,6 +47,9 @@ El orden del código fuente esta dado por el Nro. de vuelo de cada viajero.
 ### Los espías
 
 Para detectar a un espía, tendrás que tener en cuenta las siguientes características:
+
+* El número de pasaporte termina en un número impar
+* El nombre del pasajero tiene 2 vocales (diferentes)
 
 
 ## Links útiles
